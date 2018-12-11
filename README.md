@@ -21,8 +21,8 @@ kaggle config set -n competition -v two-sigma-financial-news
 
 ```sh
 # Running Neural Network
-python3 prediction/NN.py
+python3 NN_and_XGBOOST/NN.py
 
 ## Running XGBoost
-python3 prediction/XGBoost.py
+python3 NN_and_XGBOOST/XGBoost.py
 ```
